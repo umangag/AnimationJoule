@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#2f2f30">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="Energy"
+        android:textColor="#ffff"
+        android:textSize="21.4sp" />
+
+    <RelativeLayout
+        android:id="@+id/relative_linear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true">
+
+        <RelativeLayout
+            android:layout_width="190.5dp"
+            android:layout_height="190.5dp"
+            android:layout_centerInParent="true"
+            android:background="@drawable/circle_light">
+
+            <ImageView
+                android:id="@+id/imageView7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="40dp"
+                android:src="@drawable/group_light" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/layout_linear"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true">
+
+            <RelativeLayout
+                android:id="@+id/leaf_linear"
+                android:layout_width="85dp"
+                android:layout_height="85dp"
+                android:layout_marginTop="50dp"
+                android:background="@drawable/circle">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:src="@drawable/shape" />
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:id="@+id/rl_bottom"
+                android:layout_width="85dp"
+                android:layout_height="85dp"
+                android:layout_marginLeft="180dp"
+                android:layout_marginTop="50dp"
+                android:background="@drawable/circle">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:src="@drawable/combined_arrow" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/bar_linear"
+                android:layout_width="85dp"
+                android:layout_height="85dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="208dp"
+                android:background="@drawable/circle">
+
+                <ImageView
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:src="@drawable/shape_toon" />
+
+            </RelativeLayout>
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="35dp"
+        android:letterSpacing="-0.02"
+        android:lineSpacingExtra="6.8sp"
+        android:text="@string/time_and_energy"
+        android:textAlignment="center"
+        android:textColor="#ffffff"
+        android:textSize="14.4sp" />
+
+</RelativeLayout>

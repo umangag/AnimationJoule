@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">JouleSample</string>
+
+    <string name="onboarding_controlling">Onboarding &amp; Controlling</string>
+    <string name="connect_text">I\'ll help you connect effortlessly to all your home \n devices, enabling you to group then smartly and \n control them from anywhere</string>
+    <string name="time_and_energy">You can create smart routines to automate your \n devices based on your habits and save on both \n time and energy</string>
+    <string name="automations">Automations</string>
+    <string name="potential_threats">I\'ll always keep an eye out on your home, \n notifying you of any energy leaks, security \n breaches and even potential threats</string>
+    <string name="intelligence">Intelligence</string>
+    <string name="seamless_beneficial">I\'m a smart learner &amp; as I\'ll get to know you   better, I\'ll constantly recmmend you tips to   make your experiance seamless &amp; beneficial</string>
+    <string name="let_s_get_started">Let\'s get Started</string>
+
+</resources>
